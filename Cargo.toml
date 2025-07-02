@@ -1,0 +1,10 @@
+[package]
+name = "apk_version_fetcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+abxml = "0.8.2"
+clap = { version = "4.5.40", features = ["derive"] }
+sha1 = "0.10.6"
+xmlparser = "0.13.6"
